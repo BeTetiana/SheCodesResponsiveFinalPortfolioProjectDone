@@ -1,0 +1,152 @@
+:root {
+  --branding-color: #bbe1fa;
+  --color: #0477fa3282B8;
+  --header-color: #3282b8;
+  --button-color: #0f4c75;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--branding-color);
+  text-align: center;
+}
+h1 {
+  font-size: 96px;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 200px auto 30px;
+}
+p {
+  margin: 50px auto 50px;
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  font-size: 24px;
+}
+h2 {
+  font-size: 64px;
+  margin: 10px auto;
+}
+a {
+  text-decoration: none;
+  color: #0f4c75;
+}
+a:hover {
+  color: #ffff;
+}
+.img-coding {
+  margin: 20px auto;
+}
+.columns-title {
+  font-size: 64px;
+  margin: 250px auto 150px;
+}
+
+.container {
+  margin: 300px auto;
+}
+.row {
+  margin: 0px auto 200px;
+}
+.button {
+  border: var(--button-color);
+  padding: 10px 15px;
+  background-color: var(--button-color);
+  border-radius: 5px;
+  color: #ffff;
+  text-decoration: none;
+  margin: 30px;
+}
+
+.button:hover {
+  background-color: var(--header-color);
+  border: var(--button-color);
+  color: black;
+}
+.btn-branding-outline {
+  color: var(--color);
+  border: 1px solid var(--color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  transition: all 200ms ease-in-out;
+}
+.btn-branding-outline:hover {
+  background-color: var(--color);
+  color: white;
+}
+
+.navbar-text {
+  display: block;
+  text-align: center;
+}
+#photo {
+  display: block;
+  max-width: 400px;
+  border-radius: 10px 100px / 120px;
+  margin: 0 60px;
+}
+#info-about-me {
+  text-align: left;
+  margin-bottom: 50px;
+}
+#contact-info {
+  margin: 0 100px;
+}
+#email,
+#linkedin,
+#gitHub {
+  margin: 10px auto 30px;
+}
+#footer {
+  display: block;
+  margin: 0 auto;
+  font-family: "Courier New", Courier, monospace;
+}
+
+@media (max-width: 960px) {
+  body {
+    margin-bottom: 100px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  h2,
+  .columns-title {
+    font-size: 42px;
+    margin: 10px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  #photo {
+    display: block;
+    max-width: 70%;
+    border-radius: 20px;
+    margin: 10px auto 50px;
+  }
+  p {
+    margin: 20px auto;
+  }
+  #name {
+    margin: 40px auto 5px;
+  }
+  .row {
+    margin: 0px auto 20px;
+  }
+  #info-about-me {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .container {
+    margin: 20px auto;
+  }
+  #contact-info {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+}
