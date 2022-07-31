@@ -37,6 +37,7 @@ a:hover {
 }
 .img-coding {
   margin: 20px auto;
+  max-width: 600px;
 }
 .columns-title {
   font-size: 64px;
@@ -148,5 +149,9 @@ a:hover {
   #contact-info {
     margin-top: 50px;
     margin-left: 50px;
+  }
+  .img-coding {
+    margin: 50px auto;
+    max-width: 80%;
   }
 }
