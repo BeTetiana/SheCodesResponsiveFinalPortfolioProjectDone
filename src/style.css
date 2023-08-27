@@ -35,9 +35,14 @@ a {
 a:hover {
   color: #ffff;
 }
-.img-coding {
+img {
   margin: 20px auto;
   max-width: 600px;
+  border-radius: 10px;
+}
+
+.data img {
+  border-radius: 50%;
 }
 .columns-title {
   font-size: 64px;
